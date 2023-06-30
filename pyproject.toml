@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "homework27"
+version = "0.1.0"
+description = ""
+authors = ["donkey4hot <tractorist666@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.6"
+psycopg2 = "^2.9.5"
+pillow = "^9.4.0"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+python-dateutil = "^2.8.2"
+pytest-django = "^4.5.2"
+pytest-factoryboy = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
